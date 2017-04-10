@@ -1,0 +1,30 @@
+{
+  "name": "jquery.collapsible",
+  "version": "0.3.0",
+  "homepage": "https://github.com/simontaite/jquery.collapsible",
+  "authors": [
+    "Simon Taite <simontaite1@gmail.com>"
+  ],
+  "description": "jquery plugin to expand and collapse forms",
+  "main": "dist/jquery.collapsible.js",
+  "keywords": [
+    "collapse",
+    "expand",
+    "accordion",
+    "jquery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.5"
+  },
+  "devDependencies": {
+    "qunit": "^2.0.1"
+  }
+}
