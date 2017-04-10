@@ -1,0 +1,25 @@
+{
+  "name": "jquery.collapsible",
+  "version": "0.1.0",
+  "description": "A jquery plugin similar to jquery-ui's accordion",
+  "main": "dist\\jquery.collapsible.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simontaite/jquery.collapsible.git"
+  },
+  "keywords": [
+    "jquery",
+    "expand",
+    "collapse",
+    "accordion"
+  ],
+  "author": "Simon Taite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simontaite/jquery.collapsible/issues"
+  },
+  "homepage": "https://github.com/simontaite/jquery.collapsible"
+}
