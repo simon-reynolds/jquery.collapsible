@@ -94,9 +94,9 @@ var collapsibleInstances = [];
                     return instance.collapse();
                 case "expand":
                     return instance.expand();
-                case "isCollapsed":
+                case "iscollapsed":
                     return instance.isCollapsed();
-                case "isExpanded":
+                case "isexpanded":
                     return instance.isExpanded();
                 default:
                     throw "Unknown option";
