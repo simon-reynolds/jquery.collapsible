@@ -79,28 +79,30 @@ var collapsibleInstances = [];
 
         if (/^(collapse|expand|isCollapsed|isExpanded)$/i.test(options)) {
 
-            var instanceId = $(this).data("collapsibleId");
-            var instance = collapsibleInstances[instanceId];
+            this.each(function(){
+                var instanceId = $(this).data("collapsibleId");
+                var instance = collapsibleInstances[instanceId];
 
-            if (!instance) {
-                instance = new Collapsible($(this), options);
-                instance.init();
-            }
+                if (!instance) {
+                    instance = new Collapsible($(this), options);
+                    instance.init();
+                }
 
-            var optionsLowerCase = options.toLowerCase();
+                var optionsLowerCase = options.toLowerCase();
 
-            switch (optionsLowerCase) {
-                case "collapse":
-                    return instance.collapse();
-                case "expand":
-                    return instance.expand();
-                case "iscollapsed":
-                    return instance.isCollapsed();
-                case "isexpanded":
-                    return instance.isExpanded();
-                default:
-                    throw "Unknown option";
-            }
+                switch (optionsLowerCase) {
+                    case "collapse":
+                        return instance.collapse();
+                    case "expand":
+                        return instance.expand();
+                    case "iscollapsed":
+                        return instance.isCollapsed();
+                    case "isexpanded":
+                        return instance.isExpanded();
+                    default:
+                        throw "Unknown option";
+                }
+            });           
 
 
         } else if (typeof options === "object" || !options) {
