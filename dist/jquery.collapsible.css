@@ -1,16 +1,9 @@
 .collapsible-wrapper {
-    border: #1b4e75 1px solid;
-    border-radius: 15px;
-    margin: 10px 0;
+    
 }
 
 .collapsible-header {
-    background-color: #246a9f;
-    color: #ffffff;
-    min-height: 30px;
-    padding-left: 10px;
-    padding-top: 5px;
-    margin: 0;
+    
 }
 
 .collapsible-header.collapsible-collapsed i {
